@@ -6,19 +6,13 @@ function display(num){
 }
 
 function Calculate(){
-    try{
         output.value = eval(output.value);
-        pourcentage();
-    }
-    catch(err){
-        alert("Invalid");
-    }
 }
 
 function Clear(){
     output.value = "";
 }
 
-function del(){
+function Del(){
     output.value = output.value.slice(0,-1);
 }

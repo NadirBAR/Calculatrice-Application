@@ -11,19 +11,23 @@ body
     outline: none;
     overflow-x: hidden;
     overflow-y: auto;
-    background: rgb(23,3,51);
-background: radial-gradient(circle, rgb(36, 35, 37) 0%,
-                             rgb(42, 42, 43) 100%);
-color: #fff;                             
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.93)),
+                  url("../Images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;                             
 }
 
 h1
 {
     font-size: 3rem;
     font-weight: 900;
+    color: #ff9d00;
     text-align: center;
     border: none;
-    filter: drop-shadow(0 0 0.75rem #777);
+    filter: drop-shadow(0 0 .75rem #000000);
     margin-top: 1rem;
 }
 
@@ -41,9 +45,10 @@ form
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid #777;
+    border: 1px solid #000000;
     border-radius: 10px;
-    box-shadow: 1px 1px 1px 1px #777;
+    box-shadow: 1px 2px 2px 10px #42404089;
+    backdrop-filter: blur(20px);
 }
 
 .box-inputNumber
@@ -81,7 +86,7 @@ form
     width: 100%;
     height: 60px;
     font-size: 2rem;
-    background: #679a02;
+    background: #ff9d00;
     color: #fff;
     margin: .15rem;
     border: none;
@@ -91,7 +96,8 @@ form
 }
 .v1 > input:hover
 {
-    background: #777;
+    background: #afafaf;
+    color: #000;
 }
 
 .v2 > input
@@ -99,7 +105,7 @@ form
     width: 100%;
     height: 60px;
     font-size: 2rem;
-    background: #679a02;
+    background: #ff9d00;
     color: #fff;
     margin: .15rem;
     border: none;
@@ -109,12 +115,13 @@ form
 }
 .v2 > input:hover
 {
-    background: #558001;
+    background: #afafaf;
 }
 
 .v2 > input[value="*"]:hover
 {
-    background: #777;
+    background: #afafaf;
+    color: #000;
 }
 
 .v3 > input
@@ -122,7 +129,7 @@ form
     width: 100%;
     height: 60px;
     font-size: 2rem;
-    background: #679a02;
+    background: #ff9d00;
     color: #fff;
     margin: .15rem;
     border: none;
@@ -132,11 +139,12 @@ form
 }
 .v3 > input:hover
 {
-    background: #558001;
+    background: #afafaf;
 }
 .v3 > input[value="-"]:hover
 {
-    background: #777;
+    background: #afafaf;
+    color: #000;
 }
 
 .v4 > input
@@ -144,7 +152,7 @@ form
     width: 100%;
     height: 60px;
     font-size: 2rem;
-    background: #679a02;
+    background: #ff9d00;
     color: #fff;
     margin: .15rem;
     border: none;
@@ -155,11 +163,12 @@ form
 
 .v4 > input:hover
 {
-    background: #558001;
+    background: #afafaf;
 }
 .v4 > input[value="+"]:hover
 {
-    background: #777;
+    background: #afafaf;
+    color: #000;
 }
 
 .v5 > input
@@ -167,7 +176,7 @@ form
     width: 100%;
     height: 60px;
     font-size: 2rem;
-    background: #679a02;
+    background: #ff9d00;
     color: #fff;
     margin: .15rem;
     border: none;
@@ -175,50 +184,64 @@ form
     cursor: pointer;
     transition: .4s ease-in-out;
 }
+
 .v5 > input:hover
 {
-    background: #558001;
+    background: #afafaf;
 }
 .v5 > input[value="="]:hover
 {
-    background: #777;
+    background: #afafaf;
+    color: #000;
 }
 input[value="7"]{
-    background-color: #777;
+    background-color: #ffffff;
+    color: #000;
 }
 input[value="8"]{
-    background-color: #777;
+    background-color: #ffffff;
+    color: #000;
 }
 input[value="9"]{
-    background-color: #777;
+    background-color: #ffffff;
+    color: #000;
 }
 
 input[value="4"]{
-    background-color: #777;
+    background-color: #ffffff;
+    color: #000;
 }
 input[value="5"]{
-    background-color: #777;
+    background-color: #ffffff;
+    color: #000;
 }
 input[value="6"]{
-    background-color: #777;
+    background-color: #ffffff;
+    color: #000;
 }
 
 input[value="1"]{
-    background-color: #777;
+    background-color: #ffffff;
+    color: #000;
 }
 input[value="2"]{
-    background-color: #777;
+    background-color: #ffffff;
+    color: #000;
 }
 input[value="3"]{
-    background-color: #777;
+    background-color: #ffffff;
+    color: #000;
 }
 
 input[value="00"]{
-    background-color: #777;
+    background-color: #ffffff;
+    color: #000;
 }
 input[value="0"]{
-    background-color: #777;
+    background-color: #ffffff;
+    color: #000;
 }
 input[value="."]{
-    background-color: #777;
+    background-color: #ffffff;
+    color: #000;
 }
